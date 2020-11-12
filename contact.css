@@ -1,0 +1,29 @@
+.display-4
+{
+    font-weight: bold !important;
+   background-color:white !important;
+   text-align: center !important;
+}
+
+
+.jumbotron /*כותרת*/
+{
+    background-color: white !important;
+    margin-top: 10px !important;
+}
+
+.active /*כפתור*/
+{
+    margin-left: 720px;
+   margin-top: 10px;
+   background-color: palevioletred !important;
+}
+
+.form-group/*טופס*/
+{
+    
+  
+text-align: right !important;
+margin-left:750px;
+
+}
