@@ -1,23 +1,87 @@
-.navbar-light
-{
+body {
+    background-image: url('giftBground.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}    
 
+.navbar-light{
     background-color: pink !important;
 }
 
-.navbar-brand
-
-{
+.navbar-brand{
     font-weight: bold;
     font-size: 28px;
     color: blanchedalmond !important;
 }
 
-.nav-link
-{
+.nav-link{
     font-size: 20px;
-    color: blanchedalmond !important;
-    
+    color: blanchedalmond !important;   
 }
+
+.display-4{
+   font-weight: bold !important;
+   background-color:white !important;
+   text-align: center !important;
+   margin-top: 75px !important;
+}
+
+.lead{
+    margin-top: 25px;
+    margin-right: 20px !important;
+    margin-left: 20px !important;
+    text-align: right !important;
+}
+
+.lead_1{
+    margin-top: 25px;
+    margin-right: 20px !important;
+    text-align: right !important;
+}
+
+.display-3{
+    font-weight: bold !important;
+    background-color:white !important;
+    text-align: center !important;
+ }
+ 
+ 
+ .jumbotron /*כותרת*/{
+     background-color: white !important;
+     margin-top: 10px !important;
+ }
+ 
+ .active /*כפתור*/{
+    margin-left: 720px;
+    margin-top: 10px;
+    background-color: palevioletred !important;
+ }
+ 
+ .form-group/*טופס*/{  
+   text-align: right !important;
+   margin-left:750px;
+ }
+
+ .row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+ 
 
 
 
