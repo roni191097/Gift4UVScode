@@ -22,7 +22,7 @@ body {
 
 .display-4{
    font-weight: bold !important;
-   background-color:white !important;
+   
    text-align: center !important;
    margin-top: 75px !important;
 }
@@ -42,14 +42,15 @@ body {
 
 .display-3{
     font-weight: bold !important;
-    background-color:white !important;
+    
     text-align: center !important;
  }
  
  
  .jumbotron /*כותרת*/{
-     background-color: white !important;
+     
      margin-top: 10px !important;
+    
  }
  
  .active /*כפתור*/{
@@ -111,8 +112,17 @@ body {
     align-items: center;
     align-content: flex-start;
   }
+ .btn-sm
+{
+    background-color: pink !important;
+    margin-top: 10px;
+}
+.col-md-2
+{
+    margin-top: 20px;
+}
  
  
-
+  
 
 
