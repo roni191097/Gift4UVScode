@@ -106,12 +106,13 @@ body {
 
 
   .footer {
-    display: flex;
+    display: block;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     align-content: flex-start;
   }
+
  .btn-sm
 {
     background-color: pink !important;
