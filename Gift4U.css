@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    padding-bottom:62px;
 }    
 
 .navbar-light{
@@ -11,12 +12,12 @@ body {
 
 .navbar-brand{
     font-weight: bold;
-    font-size: 28px;
+    font-size: 20px;
     color: blanchedalmond !important;
 }
 
 .nav-link{
-    font-size: 20px;
+    font-size: 15px;
     color: blanchedalmond !important;   
 }
 
@@ -66,22 +67,28 @@ body {
     position: absolute;
   }
 
-  .footer {
-    display: block;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    align-content: flex-start;
-  }
 
- .btn-sm
-{
+ .btn-sm{
     background-color: pink !important;
     margin-top: 10px;
 }
 .col-md-2
 {
     margin-top: 20px;
+}
+
+.btn-primary
+{
+  margin-right: 280px !important;
+  background-color: pink !important;
+}
+
+.navbar.fixed-bottom.navbar-light.bg-light{
+  block-size: 42px;
+}
+
+.album.py-5{
+   padding-bottom: -42px;
 }
 
 @media screen and (max-width: 600px) {
